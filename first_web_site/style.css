@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@font-face {
+    font-family: "Mukta";
+    src: url(font/Mukta-Bold.ttf) format("ttf");
+}   
+
+   *{
+    box-sizing:border-box; 
+    font-family: Roboto;
+    color: #777;
+}
+
+
+html, body {
+    margin:0;
+    padding:0;
+}
+
+.nav ul {
+    margin:0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    color:aliceblue;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    border-bottom: 1px solid rgba(255, 255, 255, .3)
+}
+
+.main-nav li {
+    padding: 0 3%;
+}
+.main-header {
+    background-color: rgba(0,0,0,.6);
+    background-image: url('image/terrasse.jpg');
+    background-position: center;
+    background-blend-mode: multiply; 
+    background-size: cover;
+    padding-bottom: 30px;
+}
+
+.titre-boucherie {
+    text-align: center;
+    margin:0;
+    font-size: 2.5em;
+    font-family: "Mukta";
+    font-weight: normal;
+    color: aliceblue;
+}
+
+.titre-boucherie-large {
+    font-size: 5em;
+}
+
+.content-section {
+    margin: 1em;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.section-header {
+    font-family: "Mukta";
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.about-image {
+    float: left; 
+    margin: 15px;
+    border-radius: 50%;
+}
+
+.main-footer {
+    background-color:darkcyan ;
+    color: aliceblue;
+    padding: .25em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+}
+
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: end;
+}
+
+.footer-nav li {
+    padding: 0 .5em;
+}
