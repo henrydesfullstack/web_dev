@@ -147,3 +147,25 @@ html, body {
     width: 100px;
     height: 100px;
 }
+
+.magasin-row{
+    border-bottom: 1px solid black;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+
+.magasin-row:last-child{
+    border-bottom: none;
+}
+
+.magasin-item{
+    display: inline-block;
+    padding-right: .5em;
+    
+}
+
+.magasin-date{
+    color: #555;
+    font-weight: bold;
+    width: 11%;
+}
